@@ -1,0 +1,36 @@
+a {
+    text-decoration:none;
+}
+.nav-bar {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:4px;
+    justify-content:space-around;
+    
+}
+li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+img {
+    width: 50%;
+    height:500px
+}
+
+.table-user, .participation{
+    background-color: peachpuff;
+    border: 1px solid silver;
+    border-collapse: collapse;
+    width:500px;
+}
+
+.table-user td, .participation td, .table-user th, .participation th{
+    border: 1px solid silver;
+    padding: 8px;
+    /* text-align:center; */
+    
+}
